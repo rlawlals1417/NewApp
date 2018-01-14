@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MyIntent"
+            android:label="메뉴"
+            android:theme="@style/Theme.AppCompat.Light.Dialog"
+            />
+        <activity android:name=".MenuActivity"></activity>
     </application>
 
 </manifest>
