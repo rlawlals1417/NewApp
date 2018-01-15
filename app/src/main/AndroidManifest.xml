@@ -5,7 +5,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -25,7 +24,10 @@
             android:label="메뉴"
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
         <activity android:name=".MenuActivity" />
-        <activity android:name=".MyParcelable"></activity>
+        <activity android:name=".MyParcelable" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginMainActivity"></activity>
     </application>
 
 </manifest>

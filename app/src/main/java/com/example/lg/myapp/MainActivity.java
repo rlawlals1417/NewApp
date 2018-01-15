@@ -24,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-            LayoutInf
-                later inflater = (LayoutInflater) getSystemService(getBaseContext().LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater) getSystemService(getBaseContext().LAYOUT_INFLATER_SERVICE);
             inflater.inflate(R.layout.sub1, container, true);
             }
 
@@ -36,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onClick2(View view){
-        Intent intent = new Intent(this, MenuActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
     public void onClick3(View v){
